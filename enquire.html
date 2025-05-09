@@ -13,46 +13,76 @@
         <a href="product.html" class="nav-item"> Product</a>
       </div>
     </nav>
-    <form action="">
-      <div class="enquire">
-        <h1>Enquire</h1>
+    <div class="enquire">
+      <section class="intro">
+        <h1>Get in Touch</h1>
         <p>
-          Have questions, feedback, or want custom features for your team? Get
-          in touch with us.
+          Have questions, feedback, or want custom features for your team? We're
+          here to help you get the most out of Web Load Tester.
         </p>
-        <div class="enquire-form">
-          <label for="name">Name</label>
+      </section>
+
+      <form class="enquire-form">
+        <div class="form-group">
+          <label for="name">Full Name</label>
           <input
             type="text"
             name="name"
             id="name"
-            placeholder="Enter your name here"
+            placeholder="Enter your name"
+            required
           />
-          <label for="email">Email</label>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
           <input
             type="email"
             name="email"
             id="email"
-            placeholder="Enter your email here"
+            placeholder="Enter your email"
+            required
           />
-          <label for="phone">Phone</label>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
           <input
             type="tel"
             name="phone"
             id="phone"
-            placeholder="Enter your phone number here"
+            placeholder="Enter your phone number"
           />
-          <label for="message">message</label>
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <select name="subject" id="subject" required>
+            <option value="">Select a subject</option>
+            <option value="general">General Inquiry</option>
+            <option value="support">Technical Support</option>
+            <option value="sales">Sales Questions</option>
+            <option value="feedback">Feedback</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Your Message</label>
           <textarea
             name="message"
             id="message"
-            cols="30"
-            rows="10"
-            placeholder="Enter your message here"
+            rows="6"
+            placeholder="How can we help you?"
+            required
           ></textarea>
-          <button>Submit</button>
         </div>
-      </div>
-    </form>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+    <footer class="footer">
+      <p>Contact us at support@webloadtester.com | © 2025 Web Load Tester</p>
+    </footer>
   </body>
 </html>

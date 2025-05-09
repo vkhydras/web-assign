@@ -13,42 +13,100 @@
         <a href="product.html" class="nav-item"> Product</a>
       </div>
     </nav>
-    <section class="intro"></section>
+
+    <section class="intro">
       <h1>What is Web Load Tester?</h1>
       <p>
-        Web Load Tester is a high-performance, open-source command-line tool for simulating concurrent users and measuring the performance of web applications.
+        Web Load Tester is a high-performance, open-source command-line tool for
+        simulating concurrent users and measuring the performance of web
+        applications.
       </p>
+      <img
+        src="web_load_tester.jpeg"
+        alt="Web Load Tester Dashboard"
+        style="
+          max-width: 100%;
+          margin: 2rem 0;
+          border-radius: 8px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        "
+      />
     </section>
 
     <section class="features">
       <h2>Core Features:</h2>
       <ul>
         <li>🌐 <strong>Protocol Support:</strong> HTTP/HTTPS, REST APIs</li>
-        <li>🧠 <strong>Custom Load Scripts:</strong> Define scenarios using config files or flags</li>
-        <li>📉 <strong>Performance Reports:</strong> Latency, throughput, error rate</li>
-        <li>🔁 <strong>Repeatable Tests:</strong> Consistent benchmarking for CI/CD pipelines</li>
-        <li>🛠 <strong>Extensible:</strong> Plug in custom logic or integrate with monitoring tools</li>
+        <li>
+          🧠 <strong>Custom Load Scripts:</strong> Define scenarios using config
+          files or flags
+        </li>
+        <li>
+          📉 <strong>Performance Reports:</strong> Latency, throughput, error
+          rate
+        </li>
+        <li>
+          🔁 <strong>Repeatable Tests:</strong> Consistent benchmarking for
+          CI/CD pipelines
+        </li>
+        <li>
+          🛠 <strong>Extensible:</strong> Plug in custom logic or integrate with
+          monitoring tools
+        </li>
       </ul>
     </section>
 
-    <section class="why-choose-us">
-      <h2>Why Choose Us?</h2>
-      <ul>
-        <li>Minimal resource usage</li>
-        <li>Easy to install — cross-platform binaries</li>
-        <li>Built for developers, by developers</li>
-      </ul>
+    <section class="pricing">
+      <div class="price-card">
+        <h3>Basic Plan</h3>
+        <div class="price-amount">$49/mo</div>
+        <ul>
+          <li>Up to 1,000 concurrent users</li>
+          <li>Basic reporting</li>
+          <li>Email support</li>
+          <li>1 project</li>
+        </ul>
+        <button>Get Started</button>
+      </div>
+
+      <div class="price-card">
+        <h3>Pro Plan</h3>
+        <div class="price-amount">$99/mo</div>
+        <ul>
+          <li>Up to 10,000 concurrent users</li>
+          <li>Advanced analytics</li>
+          <li>Priority support</li>
+          <li>5 projects</li>
+        </ul>
+        <button>Try Pro</button>
+      </div>
+
+      <div class="price-card">
+        <h3>Enterprise</h3>
+        <div class="price-amount">Custom</div>
+        <ul>
+          <li>Unlimited concurrent users</li>
+          <li>Custom reporting</li>
+          <li>24/7 dedicated support</li>
+          <li>Unlimited projects</li>
+        </ul>
+        <button>Contact Sales</button>
+      </div>
     </section>
 
     <section class="screenshots">
-      <h2>Screenshots / Code Snippets:</h2>
-      <h3>CLI Sample Command</h3>
-      <pre><code>webload-tester --url https://example.com --users 100 --duration 60</code></pre>
-      <h3>Sample Output Logs</h3>
-      <pre><code>
-    [INFO] Starting test with 100 users for 60 seconds
-    [INFO] Requests: 1200 | Errors: 0 | Avg Latency: 200ms | Throughput: 20 req/sec
-      </code></pre>
+      <h2>Quick Start Guide</h2>
+      <div class="code-sample">
+        <h3>CLI Sample Command</h3>
+        <pre><code>webload-tester --url https://example.com --users 100 --duration 60</code></pre>
+        <h3>Sample Output Logs</h3>
+        <pre><code>[INFO] Starting test with 100 users for 60 seconds
+[INFO] Requests: 1200 | Errors: 0 | Avg Latency: 200ms | Throughput: 20 req/sec</code></pre>
+      </div>
     </section>
+
+    <footer class="footer">
+      <p>Contact us at support@webloadtester.com | © 2025 Web Load Tester</p>
+    </footer>
   </body>
 </html>
